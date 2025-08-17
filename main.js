@@ -5,12 +5,12 @@ import { getFirestore, collection, addDoc, onSnapshot, doc, updateDoc, deleteDoc
 
 // 🔹 Configuración de tu proyecto Firebase (reemplaza con tus datos)
 const firebaseConfig = {
-  apiKey: "TU_API_KEY",
-  authDomain: "TU_PROJECT.firebaseapp.com",
-  projectId: "TU_PROJECT_ID",
-  storageBucket: "TU_PROJECT.appspot.com",
-  messagingSenderId: "ID",
-  appId: "APP_ID"
+  apiKey: "AIzaSyCWsbKdro68l1pfKqDpWgHpvU1AkQ2bSs8",
+  authDomain: "bdprueba01.firebaseapp.com",
+  projectId: "bdprueba01",
+  storageBucket: "bdprueba01.firebasestorage.app",
+  messagingSenderId: "93749230739",
+  appId: "1:93749230739:web:fe27f2886979d042002166",
 };
 
 const app = initializeApp(firebaseConfig);
